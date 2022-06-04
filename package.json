@@ -1,10 +1,10 @@
 {
-  "name": "nextjs-template",
-  "version": "1.7.0",
-  "description": "Opinionated Next.js template configured with TypeScript, Chakra UI, Redux Toolkit and other devtools",
+  "name": "pert",
+  "version": "0.0.0",
+  "description": "Interactive PERT analysis to help project managers improve time managements",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Howard86/nextjs-template"
+    "url": "https://github.com/Howard86/pert"
   },
   "author": "Howard Tai <howard@howardism.dev>",
   "license": "MIT",
@@ -27,9 +27,9 @@
     "msw"
   ],
   "bugs": {
-    "url": "https://github.com/Howard86/nextjs-template/issues"
+    "url": "https://github.com/Howard86/pert/issues"
   },
-  "homepage": "https://github.com/Howard86/nextjs-template",
+  "homepage": "https://github.com/Howard86/pert",
   "scripts": {
     "analyze": "ANALYZE=true next build",
     "check-all": "yarn type-check && yarn lint && yarn format",
