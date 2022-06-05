@@ -7,6 +7,9 @@ const config = {
   eslint: {
     dirs: ['src', '__tests__'],
   },
+  compiler: {
+    reactRemoveProperties: process.env.NODE_ENV === 'production',
+  },
 };
 
 module.exports = (phase) => {
