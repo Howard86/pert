@@ -8,23 +8,13 @@ describe('home', () => {
     expect.hasAssertions();
     appRender(<Home />);
 
-    expect(document.title).toBe('Create Next App');
+    expect(document.title).toBe('PERT Analysis');
     expect(
       screen.getByRole('heading', {
         level: 1,
-        name: /welcome to next\.js!/i,
+        name: 'PERT Analysis',
       }),
     ).toBeInTheDocument();
-    expect(screen.getByRole('img')).toHaveAttribute('alt', 'Vercel Logo');
-  });
-
-  it('calls /hello api with mock data', async () => {
-    expect.hasAssertions();
-    appRender(<Home />);
-
-    await expect(screen.findByText('/hello')).resolves.toBeInTheDocument();
-    await expect(
-      screen.findByText('MOCK_NAME', { exact: false }),
-    ).resolves.toBeInTheDocument();
+    expect(screen.getByRole('table')).toBeInTheDocument();
   });
 });
