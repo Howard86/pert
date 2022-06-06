@@ -1,56 +1,25 @@
-# Next.js Template
+# PERT
 
-This is a **highly** opinionated [Next.js](https://nextjs.org/) template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+An online interactive PERT analysis built on next.js.
 
-Shipped with following developer tools:
+## Introduction
 
-### Production dependencies
+Program Evaluation and Review Technique (PERT) is a method used to examine the tasks in a schedule and determine a Critical Path Method variation (CPM). It analyzes the time required to complete each task and its associated dependencies to determine the minimum time to complete a project. It estimates the shortest possible time each activity will take, the most likely length of time, and the longest time that might be taken if the activity takes longer than expected. The US Navy developed the method in 1957 on the Polaris nuclear submarine project.
 
-1. [Chakra UI](https://chakra-ui.com)
-2. [Emotion](https://emotion.sh)
-3. [Framer Motion](https://www.framer.com/motion/)
-4. [Redux Toolkit](https://redux-toolkit.js.org)
-5. [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
+## Purpose
 
-### Development dependencies
+PERT Analysis informs Program Managers and project personnel on the project’s tasks and the estimated amount of time required to complete each task. By utilizing this information a Program Manager will be able to estimate the minimum amount of time required to complete the entire project. This helps in the creation of more realistic schedules and cost estimates.
 
-1. [TypeScript](https://www.typescriptlang.org/)
-2. [Jest](https://jestjs.io)
-3. [Cypress](https://www.cypress.io)
-4. [ESLint](https://eslint.org/) with [Airbnb config](https://github.com/iamturns/eslint-config-airbnb-typescript)
-5. [Prettier](https://prettier.io/)
-6. Pre-commit & pre-push git hooks powered by [lint-staged](https://github.com/okonet/lint-staged) and [husky](https://typicode.github.io/husky/#/)
-7. [Commitlint](https://commitlint.js.org/#/)
-8. [Mock Service Worker](https://mswjs.io)
+## Pros & Cons
 
-## Getting Started
+Understanding the advantages and disadvantages of utilizing PERT analysis will give program managers and project personnel a better understanding of the realities of their schedules. It takes an experienced program manager to truly utilize the benefits a PERT analysis can provide a project team.
 
-First, run the development server:
+- Advantages: Provides Program Managers information to evaluate time and resources on a project. It helps give them the necessary information to make informed decisions and set a realistic schedule.
+- Disadvantages: The analysis can be highly subjective and be influenced a few outspoken team members. It also required a lot of time to continually update the analysis as a program progresses.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Reference
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `src/pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- AcqNotes: [PERT Analysis](https://acqnotes.com/acqnote/tasks/pert-analysis)
 
 ## License
 
